@@ -13,7 +13,7 @@ var app = express();
 var mongoose = require('mongoose');
 
 //Set up default mongoose connection
-var mongoDB = 'mongodb://localhost:27017/beer_olympics';
+var mongoDB = 'mongodb://admin:root@ds121543.mlab.com:21543/heroku_3f8tn3nl';
 mongoose.connect(mongoDB);
 
 //Get the default connection
