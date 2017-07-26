@@ -9,20 +9,20 @@ import {
 import {routing} from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { ScoreBoardComponent } from './components/scoreboard/scoreBoard.component';
+import { HomeComponent } from './components/home/home.component';
 import { NoContentComponent } from './components/no-content/no-content';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { AdminComponent } from './components/admin/admin.component';
+import { AboutComponent } from './components/about/about.component';
 
 import {CollapseModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ScoreBoardComponent,
+    HomeComponent,
     NoContentComponent,
     NavbarComponent,
-    AdminComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
