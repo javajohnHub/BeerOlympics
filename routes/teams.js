@@ -3,7 +3,7 @@ var router = express.Router();
 var Team = require("../models/team");
 
 router.get('/', function(req, res, next) {
-    Team.find(function (err, teams) {
+    Team.find({}, null, {sort: {score: 1}},function (err, teams) {
         if (err) {
             res.status(500).send(err)
         } else {
