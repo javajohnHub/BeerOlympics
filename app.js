@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var teams = require('./routes/teams');
 var app = express();
-
-
+var cors = require('cors')
+app.use(cors())
 var mongoose = require('mongoose');
 
 //Set up default mongoose connection

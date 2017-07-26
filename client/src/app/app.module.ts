@@ -9,20 +9,21 @@ import {
 import {routing} from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
+import { BoardComponent } from './components/board/board.component';
 import { NoContentComponent } from './components/no-content/no-content';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { AboutComponent } from './components/about/about.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 import {CollapseModule } from 'ngx-bootstrap';
+import {BoardService} from "./components/board/board.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    BoardComponent,
     NoContentComponent,
     NavbarComponent,
-    AboutComponent
+    AdminComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +32,7 @@ import {CollapseModule } from 'ngx-bootstrap';
     routing,
     CollapseModule.forRoot()
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}, BoardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

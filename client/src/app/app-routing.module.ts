@@ -2,17 +2,17 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import {NoContentComponent} from './components/no-content/no-content';
-import {HomeComponent} from './components/home/home.component';
-import {AboutComponent} from './components/about/about.component';
+import {BoardComponent} from './components/board/board.component';
+import {AdminComponent} from './components/admin/admin.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: BoardComponent
   },
   {
-    path: 'about',
-    component: AboutComponent
+    path: 'admin',
+    component: AdminComponent
   },
   { path: '**',    component: NoContentComponent },
 ];

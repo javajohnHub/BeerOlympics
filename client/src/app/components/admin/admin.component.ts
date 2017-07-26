@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
+  selector: 'app-admin',
   template: `
-    <div><h1>About</h1>
+    <div>
+      <h1>Admin</h1>
     </div>
   `
 })
-export class AboutComponent {
+export class AdminComponent {
 
 }
