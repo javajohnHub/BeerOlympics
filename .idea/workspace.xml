@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b26bf114-53f9-4e81-9bcf-872b2dac32a0" name="Default" comment="" />
+    <list default="true" id="b26bf114-53f9-4e81-9bcf-872b2dac32a0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/client/src/app/components/board/board.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
                 <marker date="1501087428000" expanded="true" signature="156:216" ph="..." />
@@ -1028,12 +1030,12 @@
       <workItem from="1501080123358" duration="215000" />
       <workItem from="1501080534634" duration="603000" />
       <workItem from="1501081955284" duration="1375000" />
-      <workItem from="1501083524295" duration="3950000" />
+      <workItem from="1501083524295" duration="4093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15937000" />
+    <option name="totallyTimeSpent" value="16080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1234,7 +1236,7 @@
     <entry file="file://$PROJECT_DIR$/client/src/app/components/board/board.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
             <marker date="1501087428000" expanded="true" signature="156:216" ph="..." />
