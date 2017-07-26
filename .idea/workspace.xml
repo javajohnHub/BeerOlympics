@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/routes/teams.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -1293,12 +1293,12 @@
       <workItem from="1501080123358" duration="215000" />
       <workItem from="1501080534634" duration="603000" />
       <workItem from="1501081955284" duration="1375000" />
-      <workItem from="1501083524295" duration="7004000" />
+      <workItem from="1501083524295" duration="7072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18991000" />
+    <option name="totallyTimeSpent" value="19059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1520,7 +1520,7 @@
     <entry file="file://$PROJECT_DIR$/routes/teams.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding />
         </state>
       </provider>
