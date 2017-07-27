@@ -7,12 +7,20 @@ import {BoardService} from './board.service';
     <div>
       <h1>ScoreBoard</h1>
       <ng-container *ngIf="loading">Loading ScoreBoard...</ng-container>
-      <ol *ngFor="let team of teams">
-        <li>{{team.name}}</li>
-        <li>{{team.p1}}</li>
-        <li>{{team.p2}}</li>
-        <li>{{team.score}}</li>
-      </ol>
+      <table class="table table-hover table-responsive table-striped">
+        <tr>
+          <th>Team</th>
+          <th>Player 1</th>
+          <th>Player 2</th>
+          <th>Score</th>
+        </tr>
+        <tr *ngFor="let team of teams">
+          <td>{{team.name}}</td>
+          <td>{{team.p1}}</td>
+          <td>{{team.p2}}</td>
+          <td>{{team.score}}</td>
+        </tr>
+      </table>
     </div>
   `
 })
