@@ -7,7 +7,12 @@ import {BoardService} from './board.service';
     <div>
       <h1>ScoreBoard</h1>
       <ng-container *ngIf="loading">Loading ScoreBoard...</ng-container>
-      {{teams | json}}
+      <ol *ngFor="let team of teams">
+        <li>{{team.name}}</li>
+        <li>{{team.p1}}</li>
+        <li>{{team.p2}}</li>
+        <li>{{team.score}}</li>
+      </ol>
     </div>
   `
 })
