@@ -15,8 +15,8 @@ import {BoardService} from './board.service';
         </tr>
         <tr *ngFor="let team of teams">
           <td><h3><b>{{team.name}}</b></h3></td>
-          <td style="padding-top:34px;">{{team.p1}}</td>
-          <td style="padding-top:34px;">{{team.p2}}</td>
+          <td style="padding-top:32px;">{{team.p1}}</td>
+          <td style="padding-top:32px;">{{team.p2}}</td>
           <td><h3 style="color: #ff7c3b;">{{team.score}}</h3></td>
         </tr>
       </table>
