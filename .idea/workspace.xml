@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b26bf114-53f9-4e81-9bcf-872b2dac32a0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.463f3979592bed825a11.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.d883386e4e89c1f5ba72.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.d883386e4e89c1f5ba72.bundle.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.3efb803cff4e7235de9c.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.3efb803cff4e7235de9c.bundle.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.9b7352a14323f6e038b2.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.9b7352a14323f6e038b2.bundle.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.a9abe64e830b8f8447c4.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.a9abe64e830b8f8447c4.bundle.js.gz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/board/board.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/board/board.component.ts" />
     </list>
@@ -41,17 +57,17 @@
       <file leaf-file-name="board.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/app/components/board/board.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="315">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
-                <marker date="1501191998000" expanded="true" signature="156:743" ph="..." />
-                <marker date="1501191998000" expanded="true" signature="228:659" ph="..." />
-                <marker date="1501191998000" expanded="true" signature="241:360" ph="..." />
-                <marker date="1501191998000" expanded="true" signature="400:644" ph="..." />
-                <marker date="1501191998000" expanded="true" signature="472:489" ph="..." />
-                <marker date="1501191998000" expanded="true" signature="529:546" ph="..." />
-                <marker date="1501191998000" expanded="true" signature="590:605" ph="..." />
+                <marker date="1501192182000" expanded="true" signature="156:743" ph="..." />
+                <marker date="1501192182000" expanded="true" signature="228:659" ph="..." />
+                <marker date="1501192182000" expanded="true" signature="241:360" ph="..." />
+                <marker date="1501192182000" expanded="true" signature="400:644" ph="..." />
+                <marker date="1501192182000" expanded="true" signature="472:489" ph="..." />
+                <marker date="1501192182000" expanded="true" signature="529:546" ph="..." />
+                <marker date="1501192182000" expanded="true" signature="590:605" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1187,12 +1203,12 @@
       <workItem from="1501080123358" duration="215000" />
       <workItem from="1501080534634" duration="603000" />
       <workItem from="1501081955284" duration="1375000" />
-      <workItem from="1501083524295" duration="8986000" />
+      <workItem from="1501083524295" duration="9237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20973000" />
+    <option name="totallyTimeSpent" value="21224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1205,6 +1221,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="533" y="23" width="1290" height="848" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5027581" order="7" side_tool="true" content_ui="tabs" />
@@ -1212,7 +1229,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.4972419" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.4972419" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1409,17 +1426,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/components/board/board.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <marker date="1501191998000" expanded="true" signature="156:743" ph="..." />
-            <marker date="1501191998000" expanded="true" signature="228:659" ph="..." />
-            <marker date="1501191998000" expanded="true" signature="241:360" ph="..." />
-            <marker date="1501191998000" expanded="true" signature="400:644" ph="..." />
-            <marker date="1501191998000" expanded="true" signature="472:489" ph="..." />
-            <marker date="1501191998000" expanded="true" signature="529:546" ph="..." />
-            <marker date="1501191998000" expanded="true" signature="590:605" ph="..." />
+            <marker date="1501192182000" expanded="true" signature="156:743" ph="..." />
+            <marker date="1501192182000" expanded="true" signature="228:659" ph="..." />
+            <marker date="1501192182000" expanded="true" signature="241:360" ph="..." />
+            <marker date="1501192182000" expanded="true" signature="400:644" ph="..." />
+            <marker date="1501192182000" expanded="true" signature="472:489" ph="..." />
+            <marker date="1501192182000" expanded="true" signature="529:546" ph="..." />
+            <marker date="1501192182000" expanded="true" signature="590:605" ph="..." />
           </folding>
         </state>
       </provider>
