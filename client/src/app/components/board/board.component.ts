@@ -5,8 +5,7 @@ import {BoardService} from './board.service';
   selector: 'app-board',
   template: `
     <div>
-      <h1>ScoreBoard</h1>
-      <ng-container *ngIf="loading">Loading ScoreBoard...</ng-container>
+
       <table class="table table-hover table-responsive table-striped">
         <tr>
           <th>Team</th>
@@ -15,12 +14,13 @@ import {BoardService} from './board.service';
           <th>Score</th>
         </tr>
         <tr *ngFor="let team of teams">
-          <td>{{team.name}}</td>
+          <td><h3><b>{{team.name}}</b></h3></td>
           <td>{{team.p1}}</td>
           <td>{{team.p2}}</td>
-          <td>{{team.score}}</td>
+          <td><h3 style="color: #ff7c3b;">{{team.score}}</h3></td>
         </tr>
       </table>
+      <ng-container *ngIf="loading">Loading ScoreBoard...</ng-container>
     </div>
   `
 })
