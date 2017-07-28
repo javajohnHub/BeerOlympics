@@ -53,7 +53,7 @@ export class AdminComponent implements OnInit {
 
   getTeams(){
     setInterval(() => {
-      this.board.getTeams()
+      this.board.getTeamsAdmin()
         .subscribe(data => {
             this.teams = data;
             this.loading = false

@@ -12,11 +12,16 @@ export class BoardService{
   }
 
   getTeams(){
-    return this._http.get('https://beerolympic.herokuapp.com/teams')
+  return this._http.get('https://beerolympic.herokuapp.com/teams')
+    .map(response => response.json())
+    .catch(error => Observable.throw(error.json() || 'Server Error'));
+}
+
+  getTeamsAdmin(){
+    return this._http.get('https://beerolympic.herokuapp.com/teams/admin')
       .map(response => response.json())
       .catch(error => Observable.throw(error.json() || 'Server Error'));
   }
-
   createTeam(team){
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');

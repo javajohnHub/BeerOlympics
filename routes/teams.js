@@ -12,6 +12,15 @@ router.get('/', function(req, res, next) {
     });
 });
 
+router.get('/admin', function(req, res, next) {
+    Team.find(function (err, teams) {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.send(teams);
+        }
+    });
+});
 router.get('/:name', function(req, res, next) {
     Team.findOne({"name": req.params.name}, function (err, team) {
         if (err) {
