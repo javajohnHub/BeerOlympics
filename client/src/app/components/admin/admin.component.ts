@@ -14,11 +14,11 @@ import {BoardService} from '../board/board.service';
           <th>Score</th>
         </tr>
         <tr *ngFor="let team of teams">
-          <td><h3><b>{{team.name}}</b></h3></td>
+          <td><h3><b>{{team.name}}</b></h3><button class="btn btn-danger"(click)="deleteTeam(team)">X</button></td>
           <td style="padding-top:32px;">{{team.p1}}</td>
           <td style="padding-top:32px;">{{team.p2}}</td>
           <td><h3 style="color: #ff7c3b;">{{team.score}}</h3></td>
-          <td><button (click)="editTeam(team)">Edit</button> <button (click)="deleteTeam(team)">Delete</button><button (click)="addPoint(team)">add</button><button (click)="removePoint(team)">remove</button></td>
+          <td> <button class="btn btn-success"(click)="addPoint(team)">+1</button><button class="btn btn-warning"(click)="removePoint(team)">-1</button></td>
         </tr>
       </table>
       <ng-container *ngIf="loading">Loading ScoreBoard...</ng-container>
@@ -51,12 +51,13 @@ export class AdminComponent implements OnInit {
   createTeam(){
 
   }
-  editTeam(team){
-
-  }
   deleteTeam(team){
-    this.board.deleteTeam(team)
-      .subscribe(data => console.log(data) )
+    var r = confirm("Delete team?");
+    if (r == true) {
+      this.board.deleteTeam(team)
+        .subscribe(data => console.log(data) )
+    }
+    return;
   }
 
   addPoint(team){

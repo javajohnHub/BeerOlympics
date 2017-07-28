@@ -25,14 +25,6 @@ export class BoardService{
       .map(res => {res.json()})
   }
 
-  editTeam(team){
-    let headers = new Headers();
-    headers.append('Content-Type', 'application/json');
-    let body = team;
-    return this._http.put('https://beerolympic.herokuapp.com/teams/' + team['name'],body, headers)
-      .map(res => {res.json()})
-  }
-
   deleteTeam(team){
     return this._http.delete('https://beerolympic.herokuapp.com/teams/' + team['name'])
       .map(res => {res.json()})
