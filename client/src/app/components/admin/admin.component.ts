@@ -23,11 +23,25 @@ import {BoardService} from '../board/board.service';
       </table>
       <ng-container *ngIf="loading">Loading ScoreBoard...</ng-container>
     </div>
+
+    <form>
+      <div class="form-group well">
+        <input class="form-control" type="text" placeholder="Enter a team name..." [(ngModel)]="teamName" name="teamName">
+        <input class="form-control" type="text" placeholder="Enter player 1 name..." [(ngModel)]="p1" name="p1">
+        <input class="form-control" type="text" placeholder="Enter player 2 name..." [(ngModel)]="p2" name="p2">
+      </div>
+      <button class="btn btn-success" (click)="createTeam()">Create Team</button>
+    </form>
   `
 })
 export class AdminComponent implements OnInit {
   teams: string;
   loading: boolean;
+  teamObject: any;
+  teamName;
+  p1;
+  p2;
+  score = 0;
   constructor(private board: BoardService){
 
   }
@@ -49,7 +63,18 @@ export class AdminComponent implements OnInit {
 
   }
   createTeam(){
-
+    this.teamObject = {
+      "name": this.teamName,
+      "p1": this.p1,
+      "p2": this.p2,
+      "score": this.score
+    }
+    this.board.createTeam(this.teamObject)
+      .subscribe(data => {console.log(data);
+      this.teamName = '';
+      this.p1 = '';
+      this.p2 = '';
+      } )
   }
   deleteTeam(team){
     var r = confirm("Delete team?");

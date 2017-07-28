@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b26bf114-53f9-4e81-9bcf-872b2dac32a0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.eb95248f95d30cf1423f.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.677ff9141674fbd56614.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.677ff9141674fbd56614.bundle.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.54f713e1c3e3d109c11b.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.54f713e1c3e3d109c11b.bundle.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.9b7352a14323f6e038b2.bundle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.9b7352a14323f6e038b2.bundle.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.198684f1280364722464.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.198684f1280364722464.bundle.js.gz" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/admin/admin.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/admin/admin.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/board/board.service.ts" afterPath="$PROJECT_DIR$/client/src/app/components/board/board.service.ts" />
     </list>
@@ -73,30 +56,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/app/components/admin/admin.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="110" lean-forward="false" selection-start-line="16" selection-start-column="110" selection-end-line="16" selection-end-column="110" />
+            <state relative-caret-position="409">
+              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
-                <marker date="1501200888000" expanded="true" signature="163:975" ph="..." />
-                <marker date="1501200888000" expanded="true" signature="235:891" ph="..." />
-                <marker date="1501200888000" expanded="true" signature="248:367" ph="..." />
-                <marker date="1501200888000" expanded="true" signature="407:876" ph="..." />
-                <marker date="1501200888000" expanded="true" signature="546:563" ph="..." />
-                <marker date="1501200888000" expanded="true" signature="603:620" ph="..." />
-                <marker date="1501200888000" expanded="true" signature="664:679" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="163:975" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="235:891" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="248:367" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="407:876" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="546:563" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="603:620" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="664:679" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="987:1479" ph="..." />
+                <marker date="1501202935000" expanded="true" signature="1023:1385" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="board.service.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="board.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/app/components/board/board.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state relative-caret-position="173">
+              <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -135,8 +120,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/routes/teams.js" />
         <option value="$PROJECT_DIR$/client/src/app/components/board/board.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/components/admin/admin.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/components/board/board.service.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/admin/admin.component.ts" />
       </list>
     </option>
   </component>
@@ -1499,12 +1484,12 @@
       <workItem from="1501080123358" duration="215000" />
       <workItem from="1501080534634" duration="603000" />
       <workItem from="1501081955284" duration="1375000" />
-      <workItem from="1501083524295" duration="13480000" />
+      <workItem from="1501083524295" duration="14815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25467000" />
+    <option name="totallyTimeSpent" value="26802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1716,29 +1701,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/admin/admin.component.ts">
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/board/board.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="110" lean-forward="false" selection-start-line="16" selection-start-column="110" selection-end-line="16" selection-end-column="110" />
+        <state relative-caret-position="173">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <marker date="1501200888000" expanded="true" signature="163:975" ph="..." />
-            <marker date="1501200888000" expanded="true" signature="235:891" ph="..." />
-            <marker date="1501200888000" expanded="true" signature="248:367" ph="..." />
-            <marker date="1501200888000" expanded="true" signature="407:876" ph="..." />
-            <marker date="1501200888000" expanded="true" signature="546:563" ph="..." />
-            <marker date="1501200888000" expanded="true" signature="603:620" ph="..." />
-            <marker date="1501200888000" expanded="true" signature="664:679" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/board/board.service.ts">
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/admin/admin.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="409">
+          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1501202935000" expanded="true" signature="163:975" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="235:891" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="248:367" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="407:876" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="546:563" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="603:620" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="664:679" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="987:1479" ph="..." />
+            <marker date="1501202935000" expanded="true" signature="1023:1385" ph="..." />
           </folding>
         </state>
       </provider>

@@ -20,8 +20,7 @@ export class BoardService{
   createTeam(team){
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
-    let body = team;
-    return this._http.post('https://beerolympic.herokuapp.com/teams/', body, headers)
+    return this._http.post('https://beerolympic.herokuapp.com/teams/', team, headers)
       .map(res => {res.json()})
   }
 
