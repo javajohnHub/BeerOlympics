@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Http} from '@angular/http';
+import {Http, Headers} from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { Observable } from "rxjs/Observable";
@@ -17,4 +17,40 @@ export class BoardService{
       .catch(error => Observable.throw(error.json() || 'Server Error'));
   }
 
+  createTeam(team){
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    let body = team;
+    return this._http.post('https://beerolympic.herokuapp.com/teams/', body, headers)
+      .map(res => {res.json()})
+  }
+
+  editTeam(team){
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    let body = team;
+    return this._http.put('https://beerolympic.herokuapp.com/teams/' + team['name'],body, headers)
+      .map(res => {res.json()})
+  }
+
+  deleteTeam(team){
+    return this._http.delete('https://beerolympic.herokuapp.com/teams/' + team['name'])
+      .map(res => {res.json()})
+  }
+
+  addPoint(team){
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    let body = {"score": team['score']};
+    return this._http.put('https://beerolympic.herokuapp.com/teams/' + team['name'],body, headers)
+      .map(res => {res.json()})
+  }
+
+  deletePoint(team){
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    let body = {"score": team['score']};
+    return this._http.put('https://beerolympic.herokuapp.com/teams/' + team['name'],body, headers)
+      .map(res => {res.json()})
+  }
 }
